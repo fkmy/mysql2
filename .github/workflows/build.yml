@@ -10,7 +10,8 @@ jobs:
       matrix:
         include:
           # Ruby 3.x / 4.x on Ubuntu 24.04 LTS
-          - {os: ubuntu-24.04, ruby: 'head', db: mysql84}
+          - {os: ubuntu-24.04, ruby: 'head', db: mysql97}
+          - {os: ubuntu-24.04, ruby: '4.0', db: mysql97}
           - {os: ubuntu-24.04, ruby: '4.0', db: mysql84}
           - {os: ubuntu-24.04, ruby: '3.4', db: mysql84}
 
